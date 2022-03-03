@@ -1,0 +1,77 @@
+:root {
+  --primary: #ffffff;
+}
+
+@font-face {
+  font-family: 'Simpsons';
+  src: local('MyFont'), url(./fonts/Roboto-Bold.ttf) format('woff');
+}
+
+#body {
+  background-color: var(--primary);
+}
+
+#quote-box {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #00acee;
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#text {
+  font-family: 'Simpsons', arial;
+  color: rgb(255, 255, 255);
+}
+
+/*.quote {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: white;
+}*/
+
+/*.open {
+  top: -15px;
+  left: 225px;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 700;
+  padding-right: 30px;
+  color: var(--primary);
+}
+
+#new-quote {
+  float: right;
+}
+
+button {
+  cursor: pointer;
+  color: #00acee;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--primary);
+  padding: 20px;
+  border-radius: 30px;
+  display: inline-block;
+  border: none;
+}
+
+#twitter {
+  float: left;
+}
+
+#twitter i {
+  color: #00acee;
+}
