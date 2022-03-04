@@ -1,8 +1,10 @@
 # Projeto Gerador de Citações em App React com implementação de pipeline CI/CD.
+
+[![<CircleCI>](https://circleci.com/gh/jacivaldocarvalho/Projeto-Gerador-de-Frases.svg?style=shield)](<https://gerador-de-citacoes.herokuapp.com/>)
+
 ## Resumo
 O aplicativo gerador de citações foi desenvolvido para ilustrar a criação de um pipeline de CI/CD para projeto React com CircleCI e Heroku.
 
-[link](https://gerador-de-citacoes.herokuapp.com/)
 
 
 ## Demonstração
