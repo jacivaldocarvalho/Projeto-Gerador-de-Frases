@@ -34,13 +34,19 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1 className='text-center'>Gerador de Citações</h1>
-        <Quotes
-          generateRandomQuote={this.generateRandomQuote}
-          quote={this.state}
-        />
-      </div>
+
+        <div>
+          <h1 className='titulo'>Gerador de Citações</h1>
+          
+          <Quotes
+            generateRandomQuote={this.generateRandomQuote}
+            quote={this.state}
+          />
+          
+          <h6 class="p3"> Copyright © 2022 JacivaldoCarvalho.</h6>
+
+        </div>
+
     );
   }
 }

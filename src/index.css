@@ -1,14 +1,17 @@
 :root {
   --primary: #ffffff;
+  --secondary: #121212;
+  --tertiary: #00acee;
 }
 
 @font-face {
-  font-family: 'Simpsons';
+  font-family: 'Roboto';
   src: local('MyFont'), url(./fonts/Roboto-Bold.ttf) format('woff');
 }
 
-#body {
-  background-color: var(--primary);
+
+body {
+  background-color: var(--secondary);
 }
 
 #quote-box {
@@ -17,31 +20,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #00acee;
-  border-radius: 20px;
+  background-color: var(--primary);
+  border-radius: 40px;
   padding: 30px;
-  font-size: 1.3em;
-  text-align: center;
+  font-size: 1.5em;
+  text-align: justify;
 }
+
 
 #text {
-  font-family: 'Simpsons', arial;
-  color: rgb(255, 255, 255);
+  font-family: 'Roboto', arial;
+  color: var(--secondary);
 }
-
-/*.quote {
-  position: absolute;
-  display: block;
-  padding: 10px;
-  border: 1px solid transparent;
-  border-radius: 50%;
-  background-color: white;
-}*/
-
-/*.open {
-  top: -15px;
-  left: 225px;
-}*/
 
 #author {
   font-style: italic;
@@ -49,8 +39,9 @@
   text-align: center;
   font-weight: 700;
   padding-right: 30px;
-  color: var(--primary);
+  color: var(--secondary);
 }
+
 
 #new-quote {
   float: right;
@@ -58,14 +49,18 @@
 
 button {
   cursor: pointer;
-  color: #00acee;
+  color: var(--tertiary);
   text-transform: uppercase;
   text-decoration: none;
   background: var(--primary);
-  padding: 20px;
-  border-radius: 30px;
+  padding: 30px;
+  border-radius: 50px;
   display: inline-block;
-  border: none;
+  border: var(--secondary);
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #twitter {
@@ -73,5 +68,5 @@ button {
 }
 
 #twitter i {
-  color: #00acee;
+  color: var(--tertiary);
 }

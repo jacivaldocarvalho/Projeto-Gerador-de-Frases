@@ -1,4 +1,16 @@
-.text-center {
+
+.titulo {
+  padding-top: 50px;
   text-align: center;
-  color: #00acee;
+  color: #ffff;
+  font-family:'Courier New', Courier, monospace;
 }
+
+.p3{
+  font-size: small;
+  color: #ffff;
+  text-align: center;
+  position: relative;
+  top: 500px;
+}
+
