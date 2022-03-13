@@ -15,8 +15,8 @@ body {
 }
 
 #quote-box {
-  width: 500px;
-  position: absolute;
+  width: 300px;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -30,15 +30,15 @@ body {
 
 #text {
   font-family: 'Roboto', arial;
+  font-size: 1em;
   color: var(--secondary);
 }
 
 #author {
   font-style: italic;
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: center;
   font-weight: 700;
-  padding-right: 30px;
   color: var(--secondary);
 }
 

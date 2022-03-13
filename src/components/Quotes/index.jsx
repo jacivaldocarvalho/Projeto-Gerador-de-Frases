@@ -13,8 +13,8 @@ export default function QuoteAndcharacter(props) {
                   {quote.quote}
                 </p>
               </div>
-              <i className='fa fa-quote-right' style={{color:'#00acee'}}></i>
-              <p id='author'>-{quote.character}-</p>
+              
+              <p id='author'> ({quote.character})</p>
             </div>
             <button
               id='new-quote'

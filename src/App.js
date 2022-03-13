@@ -42,8 +42,6 @@ export default class App extends Component {
             generateRandomQuote={this.generateRandomQuote}
             quote={this.state}
           />
-          
-          <h6 class="p3"> Copyright © 2022 JacivaldoCarvalho.</h6>
 
         </div>
 
