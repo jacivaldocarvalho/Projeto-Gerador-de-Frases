@@ -34,15 +34,12 @@ export default class App extends Component {
 
   render() {
     return (
-
         <div>
-          <h1 className='titulo'>Gerador de Citações</h1>
-          
+
           <Quotes
             generateRandomQuote={this.generateRandomQuote}
             quote={this.state}
           />
-
         </div>
 
     );
