@@ -32,7 +32,7 @@ O aplicativo gerador de citações foi desenvolvido para ilustrar a criação de
 
 ## Versão
 #
-1.0
+1.5
 
 ## Autor
 #

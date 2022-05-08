@@ -8,8 +8,8 @@ test('renders learn react link', () => {
 });*/
 import { render } from '@testing-library/react';
 import Enzyme, { mount } from 'enzyme';
-import App from './App';
-import Quotes from './components/Quotes';
+import App from './assets/js/App.js';
+import Quotes from './assets/components/Quotes';
 
 // Add your adapter version below
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';

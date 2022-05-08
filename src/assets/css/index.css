@@ -10,10 +10,6 @@
 }
 
 
-body {
-  background-color: var(--secondary);
-}
-
 #quote-box {
   width: 300px;
   position: fixed;
@@ -23,8 +19,9 @@ body {
   background-color: var(--primary);
   border-radius: 40px;
   padding: 30px;
-  font-size: 1.5em;
+  font-size: 18pt;
   text-align: justify;
+  border: 8px solid #00acee;
 }
 
 

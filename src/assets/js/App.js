@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Quotes from './components/Quotes';
-import quotes from './db/quotes';
-import './App.css';
+import Quotes from '../components/Quotes/index.jsx';
+import quotes from '../db/quotes.js';
+import '../css/App.css';
 
 export default class App extends Component {
   //state
