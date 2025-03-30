@@ -30,7 +30,7 @@ Esse projeto serve como uma excelente base para quem deseja entender como automa
 
 Você pode visualizar a aplicação em produção diretamente no Heroku acessando o seguinte link:
 
-[**Acesse o site - Gerador de Frases**](https://projeto-gerador-de-frases.herokuapp.com/)
+[**Acesse o site - Gerador de Frases (Em manutenção)**](https://projeto-gerador-de-frases.herokuapp.com/)
 
 ## **Estrutura de Arquivos**
 
